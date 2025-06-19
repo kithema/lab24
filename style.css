@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("backo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 155px;
+    height: 100px;
+}
+.btns{
+    width: 75px;
+    height: 50px;
+}
